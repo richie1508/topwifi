@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact type="apk" name="mywifi">
+    <output-path>$PROJECT_DIR$/out/artifacts/mywifi</output-path>
+    <properties id="android-properties">
+      <options>
+        <option name="keyAlias" value="adr_key" />
+        <option name="keyPassword" value="ejEyMzQ1Ng==" />
+        <option name="keyStorePassword" value="ejEyMzQ1Ng==" />
+        <option name="keyStoreUrl" value="file://$USER_HOME$/android_key.jks" />
+        <option name="proGuardCfgFiles">
+          <list>
+            <option value="file://%MODULE_SDK_HOME%/tools/proguard/proguard-android.txt" />
+          </list>
+        </option>
+        <option name="signingMode" value="RELEASE_SIGNED" />
+      </options>
+    </properties>
+    <root id="archive" name="topwifi.apk">
+      <element id="android-final-package" facet="topwifi/android/Android" />
+    </root>
+  </artifact>
+</component>
