@@ -251,6 +251,11 @@ public class MyActivity extends Activity {
         });
 
         top_level = cfgExtList.get(0).level;
+        if (top_level == -1000){
+            scan_interval = 60;
+        }else{
+            scan_interval = 10;
+        }
         return cfgExtList.get(0).SSID;
     }
 
